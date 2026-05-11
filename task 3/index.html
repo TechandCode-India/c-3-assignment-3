@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SunMall — Potato Chips</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="paper" aria-hidden="true"></div>
+
+    <header class="header">
+      <a class="logo" href="#" aria-label="SunMall home">
+        <span class="logo__spark" aria-hidden="true"></span>
+        <span class="logo__text">SunMall</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a class="nav__link nav__link--active" href="#">Home</a>
+        <a class="nav__link" href="#">About</a>
+        <a class="nav__link" href="#">Chips</a>
+        <a class="nav__link" href="#">Services</a>
+        <a class="nav__link" href="#">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <label class="search" aria-label="Search for chips">
+          <span class="search__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none">
+              <path
+                d="M10.8 18.1a7.3 7.3 0 1 1 0-14.6 7.3 7.3 0 0 1 0 14.6Z"
+                stroke="currentColor"
+                stroke-width="1.6"
+              />
+              <path
+                d="M16.5 16.5 21 21"
+                stroke="currentColor"
+                stroke-width="1.6"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <input class="search__input" placeholder="Search for chips..." />
+          <span class="search__divider" aria-hidden="true"></span>
+          <button class="cart" type="button" aria-label="Cart (4 items)">
+            <span class="cart__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M7.2 8.5h14l-1.6 9.2a2 2 0 0 1-2 1.7H9.2a2 2 0 0 1-2-1.6L5.6 4.6H3.2"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M9.3 21a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M17.5 21a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span class="cart__badge" aria-hidden="true">4</span>
+          </button>
+        </label>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="hero" aria-label="Featured product">
+        <div class="hero__left">
+          <div class="pill">
+            <span class="pill__star" aria-hidden="true">★</span>
+            <span>100% REAL INGREDIENTS</span>
+          </div>
+
+          <h1 class="hero__title">
+            EAT OUR <span class="hero__accent">GRILLED</span><br />
+            POTATO CHIPS
+          </h1>
+
+          <p class="hero__sub">
+            Satisfying savory Chinese meat sauce chips<br />
+            without any hard-to-find ingredients.
+          </p>
+
+          <div class="buy">
+            <button class="btn" type="button">
+              <span class="btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M7.2 8.5h14l-1.6 9.2a2 2 0 0 1-2 1.7H9.2a2 2 0 0 1-2-1.6L5.6 4.6H3.2"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              ADD TO CART
+            </button>
+
+            <div class="qty" aria-label="Quantity selector">
+              <button class="qty__btn" type="button" aria-label="Decrease quantity">
+                −
+              </button>
+              <span class="qty__value" aria-label="Quantity">2</span>
+              <button class="qty__btn" type="button" aria-label="Increase quantity">
+                +
+              </button>
+            </div>
+          </div>
+
+          <div class="facts" aria-label="Product highlights">
+            <div class="fact">
+              <span class="fact__icon fact__icon--leaf" aria-hidden="true"></span>
+              <div>
+                <div class="fact__title">100% NATURAL</div>
+                <div class="fact__desc">No artificial flavors</div>
+              </div>
+            </div>
+            <div class="fact">
+              <span class="fact__icon fact__icon--flame" aria-hidden="true"></span>
+              <div>
+                <div class="fact__title">OVEN GRILLED</div>
+                <div class="fact__desc">Not fried</div>
+              </div>
+            </div>
+            <div class="fact">
+              <span class="fact__icon fact__icon--heart" aria-hidden="true"></span>
+              <div>
+                <div class="fact__title">TASTY &amp; CRUNCHY</div>
+                <div class="fact__desc">Irresistible bite</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__mid" aria-hidden="true">
+          <div class="burst burst--a"></div>
+          <div class="burst burst--b"></div>
+          <div class="sprinkles"></div>
+        </div>
+
+        <div class="hero__product">
+          <div class="product">
+            <img
+              src="https://purepng.com/public/uploads/large/purepng.com-lays-potato-chipsfood-potato-tasty-pack-lays-chips-taste-product-snaks-9415246340529nj3f.png"
+              alt="Chips pack"
+              loading="eager"
+              referrerpolicy="no-referrer"
+            />
+            <div class="tag tag--yellow"><span>CRISPY &amp;</span></div>
+            <div class="tag tag--red"><span>TASTY</span></div>
+          </div>
+        </div>
+
+        <aside class="hero__right" aria-label="Flavours">
+          <div class="note">
+            <div class="note__dot note__dot--green" aria-hidden="true">
+              <span class="note__icon">🌶</span>
+            </div>
+            <div class="note__body">
+              <div class="note__title">EXTRA CHILI</div>
+              <div class="note__text">
+                Zha Jiang mian is crazy hot<br />
+                even when it's simplified
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            <div class="note__dot note__dot--red" aria-hidden="true">
+              <span class="note__icon">🥩</span>
+            </div>
+            <div class="note__body">
+              <div class="note__title">BEEF FLAVOUR</div>
+              <div class="note__text">
+                Comes with a lot extra energy<br />
+                calories and Oxizen
+              </div>
+            </div>
+          </div>
+
+          <div class="note">
+            <div class="note__dot note__dot--orange" aria-hidden="true">
+              <span class="note__icon">🔥</span>
+            </div>
+            <div class="note__body">
+              <div class="note__title">SMOKEY SAUCE</div>
+              <div class="note__text">
+                The meat sauce is kind of<br />
+                reminiscent of a Chinese.
+              </div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="bottom" aria-label="Top flavours">
+        <div class="bottom__left">
+          <h2 class="bottom__title">OUR TOP<br />FLAVOURS</h2>
+          <div class="bottom__nav" aria-label="Carousel controls">
+            <button class="round" type="button" aria-label="Previous">
+              ←
+            </button>
+            <button class="round round--dark" type="button" aria-label="Next">
+              →
+            </button>
+          </div>
+        </div>
+
+        <div class="cards" aria-label="Products">
+          <article class="pcard">
+            <div class="pcard__img" aria-hidden="true">
+              <img
+                src="https://purepng.com/public/uploads/large/purepng.com-lays-chips-packfood-pack-lays-chips-941524633500sxgbf.png"
+                alt=""
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <div class="pcard__body">
+              <div class="pcard__top">
+                <div class="pcard__name">BLACK BARBECUE</div>
+                <div class="pcard__rating">
+                  <span aria-hidden="true">★★★★★</span>
+                  <span class="pcard__score">(4.8)</span>
+                </div>
+              </div>
+              <div class="pcard__price">$12.30</div>
+              <button class="pcard__btn" type="button">
+                ORDER NOW <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="pcard">
+            <div class="pcard__img" aria-hidden="true">
+              <img
+                src="https://purepng.com/public/uploads/large/purepng.com-lays-classic-potato-chips-packetfood-lays-potato-chips-941524637186e8txs.png"
+                alt=""
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <div class="pcard__body">
+              <div class="pcard__top">
+                <div class="pcard__name">MR. POTATO</div>
+                <div class="pcard__rating">
+                  <span aria-hidden="true">★★★★★</span>
+                  <span class="pcard__score">(4.9)</span>
+                </div>
+              </div>
+              <div class="pcard__price">$15.89</div>
+              <button class="pcard__btn" type="button">
+                ORDER NOW <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="pcard">
+            <div class="pcard__img" aria-hidden="true">
+              <img
+                src="https://purepng.com/public/uploads/large/purepng.com-lays-potato-chips-packfood-potato-tasty-pack-lays-chips-taste-product-snaks-941524625368gdogh.png"
+                alt=""
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </div>
+            <div class="pcard__body">
+              <div class="pcard__top">
+                <div class="pcard__name">TOM YOMM</div>
+                <div class="pcard__rating">
+                  <span aria-hidden="true">★★★★★</span>
+                  <span class="pcard__score">(4.7)</span>
+                </div>
+              </div>
+              <div class="pcard__price">$11.50</div>
+              <button class="pcard__btn" type="button">
+                ORDER NOW <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
